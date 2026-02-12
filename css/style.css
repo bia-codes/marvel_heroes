@@ -67,17 +67,29 @@ footer {
 
 /* HEROES_DETAILS  */
 
-.details {
+/* HEROES_DETAILS */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main.details {
     display: flex;
     justify-content: center;
     padding: 40px 20px;
+    flex: 1;
 }
 
 .details-content {
     display: flex;
     gap: 40px;
     max-width: 900px;
+    width: 100%;
     align-items: center;
+    background-color: #fdecec;
+    padding: 32px;
+    border-radius: 24px;
 }
 
 .details-content .text {
@@ -90,31 +102,12 @@ footer {
 }
 
 .details-content p {
-    font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 24px;
-    color: #333;
 }
 
 .details-content .image img {
     width: 300px;
     height: 300px;
-    object-fit: cover;
     border-radius: 8px;
-}
-
-
-.details .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #c4161c; 
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.details .btn:hover {
-    opacity: 0.85;
 }
