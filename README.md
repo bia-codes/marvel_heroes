@@ -1,29 +1,29 @@
 🦸 Marvel Heroes – Desafio Frontend
 
-Projeto desenvolvido como parte de um desafio técnico de frontend, com foco em estruturação, organização e estilização de página web.
+
+Projeto desenvolvido como parte de um desafio técnico de frontend, com foco em estruturação, organização e estilização de páginas web.
+
 
 • Objetivo:
-Criar uma interface visual inspirada no universo Marvel, utilizando tecnologias básicas do frontend, priorizando clareza no código e um layout agradável.
+Criar uma interface visual inspirada no universo Marvel, utilizando tecnologias básicas do frontend, priorizando clareza no código, organização de pastas e um layout agradável e responsivo.
+
 
 • Tecnologias utilizadas:
 - HTML5
 - CSS3
-
-Obs.: O projeto não utiliza JavaScript nem consumo de API.
-
+Obs.: O projeto não utiliza JavaScript, React, nem consumo de API. As páginas dos heróis foram desenvolvidas de forma estática, com foco em prática e aprendizado.
 
 📂 Estrutura do Projeto:
 
 /
-
 ├── index.html
-
 ├── css/
-
 │     └── style.css
-
+├── heroes_details/
+│     ├── wolverine.html
+│     ├── homem_aranha.html
+│     └── ...
 ├── DEVLOG.md
-
 └── README.md
 
 
@@ -37,7 +37,7 @@ Obs.: O projeto não utiliza JavaScript nem consumo de API.
 
 4. Clique com o botão direito no arquivo index.html
 
-5. Escolha “Abrir com” e selecione um navegador (Chrome, Edge, Firefox, etc.)
+5. Escolha “Abrir com” e selecione um navegador  de sua preferência.
 
 Assim, o site será exibido no navegador.
 
