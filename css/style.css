@@ -67,4 +67,54 @@ footer {
 
 /* HEROES_DETAILS  */
 
+.details {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
 
+.details-content {
+    display: flex;
+    gap: 40px;
+    max-width: 900px;
+    align-items: center;
+}
+
+.details-content .text {
+    max-width: 500px;
+}
+
+.details-content h2 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.details-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+.details-content .image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.details .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c4161c; 
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.details .btn:hover {
+    opacity: 0.85;
+}
