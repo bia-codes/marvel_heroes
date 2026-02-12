@@ -11,13 +11,21 @@ Criar uma interface visual inspirada no universo Marvel, utilizando tecnologias 
 
 Obs.: O projeto não utiliza JavaScript nem consumo de API.
 
+
 📂 Estrutura do Projeto:
+
 /
+
 ├── index.html
+
 ├── css/
-│   └── style.css
+
+│     └── style.css
+
 ├── DEVLOG.md
+
 └── README.md
+
 
 
 ✅Como executar o projeto em outro computador:
@@ -37,4 +45,5 @@ Assim, o site será exibido no navegador.
 💻 Deploy:
 
 O projeto está publicado utilizando o GitHub Pages:
+
 🔗 https://bia-codes.github.io/marvel_heroes/
