@@ -11,20 +11,30 @@ Criar uma interface visual inspirada no universo Marvel, utilizando tecnologias 
 • Tecnologias utilizadas:
 - HTML5
 - CSS3
+
 Obs.: O projeto não utiliza JavaScript, React, nem consumo de API. As páginas dos heróis foram desenvolvidas de forma estática, com foco em prática e aprendizado.
 
 📂 Estrutura do Projeto:
 
 /
 ├── index.html
+
 ├── css/
+
 │     └── style.css
+
 ├── heroes_details/
+
 │     ├── wolverine.html
+
 │     ├── homem_aranha.html
+
 │     └── ...
+
 ├── DEVLOG.md
+
 └── README.md
+
 
 
 
